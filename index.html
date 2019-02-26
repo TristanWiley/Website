@@ -6,6 +6,15 @@
     <link rel="icon" type="image/x-icon" href="imgs/favicon.ico" />
     <link rel="icon" type="image/png" href="imgs/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="imgs/favicon-16x16.png" sizes="16x16" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-88838318-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-88838318-1');
+      gtag('url', window.location.href);
+    </script>
   </head>
   <body>
     <div class="content">
@@ -18,13 +27,8 @@
         <a href="https://tristanwiley.com/resume.pdf">Resume</a>
       </div>
     </div>
+    <script>
+      window.history.pushState({}, document.title, window.location.pathname);
+    </script>
   </body>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-88838318-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-88838318-1');
-  </script>
 </html>
