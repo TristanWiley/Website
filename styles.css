@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Oleo+Script');
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Oleo+Script");
 
-html, body {
+html,
+body {
   background-color: #fff;
   height: 100%;
   margin: 0px;
@@ -16,15 +17,15 @@ html, body {
 }
 
 .name {
-  font-family: 'Oleo Script', cursive;
+  font-family: "Oleo Script", cursive;
   font-size: 10em;
   color: #05091b;
-  text-shadow: 2px 3px 4px #6441A4;
+  text-shadow: 2px 3px 4px #6441a4;
   margin: 0px;
 }
 
 .links {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2em;
 }
 
@@ -35,9 +36,10 @@ a {
 }
 
 a:hover {
-  color: #F22F46 !important;
+  color: #6441a4 !important;
 }
 
-a:link, a:visited {
-  color: #0D122B;
+a:link,
+a:visited {
+  color: #0d122b;
 }
